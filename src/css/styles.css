@@ -13,6 +13,7 @@
 
 /* Declaring Common Styles */
 @import url('./basic.css');
+@import url('./fonts.css');
 
 /* Header */
 @import url('./header.css');
@@ -21,6 +22,7 @@
 @import url('./hero.css');
 @import url('./about-us.css');
 @import url('./our-collection.css');
+@import url('./green-woman.css');
 @import url('./your-order.css');
 @import url('./testimonials.css');
 
