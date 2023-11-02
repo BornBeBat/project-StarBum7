@@ -55,12 +55,12 @@
 }
 @media screen and (min-width: 768px) {
   .about-us-section {
-    background-image: url(../images/largedesctopaboutuselements.png);
-    background-size: 250px 408px;
+    background-image: url(../images/tabletaboutuselements.png);
+    background-size: 369px 448px;
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .about-us-section {
-      background-image: url(../images/largedesctopaboutuselements.png);
+      background-image: url(../images/tabletaboutuselements.png);
     }
   }
 }
