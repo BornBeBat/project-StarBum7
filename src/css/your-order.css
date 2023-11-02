@@ -1,110 +1,106 @@
-<<<<<<< Updated upstream
-=======
-.bkgrc-order{
-    background-color: #1C2225;;
+.bkgrc-order {
+  background-color: #1c2225;
+  background-image: url(../img/img-your-order/tablet-background@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 550px;
+  margin-bottom: 80px;
+}
+@media screen and (min-width: 768px) {
+  .bkgrc-order {
     background-image: url(../img/img-your-order/tablet-background@1x.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 550px;
-    margin-bottom: 80px;   
-}
-@media screen and (min-width: 768px) {
-    .bkgrc-order{
-        background-image: url(../img/img-your-order/tablet-background@1x.jpg);
-        min-height: 776px;;
-    }
+    min-height: 776px;
+  }
 }
 
-.conteiner-your-order{
-    width: 375px;
-    padding: 0px 20px 1px 20px;
+.conteiner-your-order {
+  width: 375px;
+  padding: 0px 20px 1px 20px;
 }
 
-.order-title{
-    color: var(--white, #FCF9F9);
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.38;
-    letter-spacing: -0.96px;
-    margin-bottom: 40px;
+.order-title {
+  color: var(--white, #fcf9f9);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
 }
 
-.order-title-color{
-    color: #ECD979;
+.order-title-color {
+  color: #ecd979;
 }
 
 @media screen and (min-width: 768px) {
-    .order-form{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        margin-bottom:100px;
-
-    }
-}
-
-.order-imput-form{
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    background-color: transparent;
+  .order-form {
     display: flex;
-    width: 335px;
-    padding: 14px 16px;
-    align-items: flex-start;
-    gap: 8px;
-    color: rgba(252, 249, 249, 0.50);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.28px;
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 100px;
+  }
 }
 
-.order-texteria{
-    margin-bottom: 40px;
-    resize: none;
+.order-imput-form {
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  display: flex;
+  width: 335px;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  color: rgba(252, 249, 249, 0.5);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  margin-bottom: 20px;
 }
 
-
-.order-btn{
-    display: flex;
-    height: 49px;
-    padding: 14px 36px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    background-color: transparent;
-    color: var(--white, #FCF9F9);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.56px;
-    text-transform: uppercase;
-    margin: 0 auto;
+.order-texteria {
+  margin-bottom: 40px;
+  resize: none;
 }
 
-.btn-order-icon{
-    fill: var(--yellow, #ECD979);
+.order-btn {
+  display: flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.btn-order-icon {
+  fill: var(--yellow, #ecd979);
 }
 
 @media screen and (min-width: 768px) {
-    .order-btn{
-        margin: 0px;
-    }
+  .order-btn {
+    margin: 0px;
+  }
 }
-.img-your-order{
-    display: none;
+.img-your-order {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-    .img-your-order{
-        background-color: #1C2225;;
+  .img-your-order {
+    background-color: #1c2225;
     background-image: url(../img/img-your-order/ornament-order@1x.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -112,6 +108,5 @@
     border-radius: 4px;
     width: 638px;
     height: 521px;
-    }
+  }
 }
->>>>>>> Stashed changes
