@@ -1,5 +1,7 @@
 :root {
-  --brand-color: #ecd979;
+  --accent-color: #ecd979;
   --color: #fcf9f9;
-  --color-opacity: rgba(252, 249, 249, 0.4);
+  --color-op50: rgba(252, 249, 249, 0.5);
+  --color-op40: rgba(252, 249, 249, 0.4);
+  --color-op10: rgba(252, 249, 249, 0.1);
 }
