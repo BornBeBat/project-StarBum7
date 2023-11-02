@@ -1,0 +1,52 @@
+.about-us-h2 {
+  color: var(--color);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.96px;
+  padding-bottom: 40px;
+}
+.about-us-p {
+  color: var(--color-op40);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+}
+.about-us-p:not(:last-child) {
+  padding-bottom: 20px;
+}
+.about-us-div-text {
+  margin-bottom: 50px;
+}
+.about-us-img {
+  border-radius: 4px;
+}
+.about-us-section {
+  padding-bottom: 62px;
+}
+.about-us-section {
+  background-image: url(../images/mobileaboutuselements.png);
+  background-size: 250px 408px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  color: var(--color-op10);
+}
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .about-us-section {
+    background-image: url(../images/mobileaboutuselements.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-us-section {
+    background-image: url(../images/largedesctopaboutuselements.png);
+    background-size: 250px 408px;
+  }
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .about-us-section {
+      background-image: url(../images/mobileaboutuselements.png);
+    }
+  }
+}
