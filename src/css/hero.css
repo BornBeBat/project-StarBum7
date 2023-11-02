@@ -55,12 +55,21 @@
     font-size: 54px;
     line-height: 1.18;
     margin-bottom: 40px;
-    margin-top: 93px;
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-tittle {
     max-width: 518px;
+    margin-top: 94px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-tittle {
+    max-width: 632px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.16;
+    margin-top: 66px;
   }
 }
 .span-hero {
@@ -74,6 +83,14 @@
   .span-hero {
     font-size: 54px;
     line-height: 1.18;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .span-hero {
+    max-width: 632px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.16;
   }
 }
 .button-hero {
@@ -93,6 +110,9 @@
   line-height: normal;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+}
+.button-hero:hover {
+  border-color: var(--accent-color);
 }
 @media screen and (min-width: 768px) {
   .button-hero {
@@ -178,7 +198,13 @@
 }
 @media screen and (min-width: 1280px) {
   .thumb-hero-second {
-    top: -15px;
+    top: 94px;
+    right: 100px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .thumb-hero-second {
+    top: 66px;
     right: 100px;
   }
 }
