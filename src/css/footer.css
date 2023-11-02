@@ -49,6 +49,17 @@
     }
   }
 }
+@media screen and (min-width: 1440px) {
+  .footer {
+    background-image: url('../images/footer/largedesctopfooterelements.png');
+    background-position: top right;
+  }
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .footer {
+      background-image: url('../images/footer/largedesctopfooterelements@2x.png');
+    }
+  }
+}
 
 .footer-list {
   margin-bottom: 40px;
