@@ -1,0 +1,129 @@
+.hero-section {
+  padding: 60px 0 80px 0;
+}
+
+.hero-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.hero-tittle {
+  color: var(--color);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  max-width: 335px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .hero-tittle {
+    max-width: 549px;
+    font-size: 54px;
+    line-height: 1.18;
+  }
+}
+.span-hero {
+  color: var(--accent-color);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+}
+@media screen and (min-width: 768px) {
+  .span-hero {
+    font-size: 54px;
+    line-height: 1.18;
+  }
+}
+.button-hero {
+  display: inline-flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: var(--color);
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .button-hero {
+    height: 50px;
+    font-size: 16px;
+    padding: 14px 39px;
+    margin-left: 141px;
+  }
+}
+
+.svg-button-hero {
+  fill: var(--accent-color);
+}
+.image-hero-first {
+  width: 335px;
+  height: 545px;
+}
+.thumb-hero {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .thumb-hero {
+    display: block;
+    position: absolute;
+    bottom: -80px;
+    right: 32px;
+    width: 157px;
+    height: 191px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    overflow: hidden;
+  }
+}
+.img-hero-second {
+  width: 100%;
+}
+.thumb-hero-second {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+  width: 115px;
+}
+@media screen and (min-width: 768px) {
+  .thumb-hero-second {
+    display: flex;
+    position: absolute;
+    top: -26px;
+    right: 32px;
+  }
+}
+.svg-hero {
+  fill: var(--accent-color);
+}
+.hero-paragraph {
+  color: var(--color-op40);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+}
