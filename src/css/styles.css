@@ -13,7 +13,6 @@
 
 /* Declaring Common Styles */
 @import url('./basic.css');
-@import url('./fonts.css');
 
 /* Header */
 @import url('./header.css');
