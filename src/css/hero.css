@@ -87,18 +87,19 @@
   .thumb-hero {
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -80px;
     right: 32px;
+    width: 157px;
+    height: 191px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
     overflow: hidden;
   }
 }
 .img-hero-second {
-  width: 157px;
-  height: 191px;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 0%;
-  border-bottom-left-radius: 0%;
+  width: 100%;
 }
 .thumb-hero-second {
   display: none;
