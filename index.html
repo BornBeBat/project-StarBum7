@@ -23,7 +23,7 @@
     />
     
     <script type="module" crossorigin src="/project-StarBum7/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-StarBum7/assets/index-cc1c19f3.css">
+    <link rel="stylesheet" href="/project-StarBum7/assets/index-5dee60fc.css">
   </head>
   <body>
     <!-- Header -->
@@ -226,17 +226,25 @@
         unique history and symbolism, which gives it a special meaning.
       </p>
     </div>
-    <img
-      width="335"
-      height="499"
-      class="about-us-img"
-      src="../images/mobileaboutus@1x.jpg"
-      alt="girl and boy"
-      srcset="
-        ../images/mobileaboutus@1x.jpg 1x,
-        ../images/mobileaboutus@2x.jpg 2x
-      "
-    />
+    <picture>
+      <img
+        class="about-us-img"
+        src="/project-StarBum7/assets/mobileaboutus@1x-28007efb.jpg"
+        alt="girl and boy"
+      />
+      <source
+        media="(min-width:375px)"
+        srcset="/project-StarBum7/assets/mobileaboutus@1x-28007efb.jpg 1x, /project-StarBum7/assets/mobileaboutus@2x-c92b47be.jpg 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/project-StarBum7/assets/tabletaboutus@1x-47b6ea6b.jpg 1x, /project-StarBum7/assets/tabletaboutus@2x-b1d4451f.jpg 2x"
+      />
+      <source
+        media="(min-width: 1158px)"
+        srcset="/project-StarBum7/assets/desctopaboutus@1x-ed1af638.jpg 1x, /project-StarBum7/assets/desctopaboutus@2x-6ca0c048.jpg 2x"
+      />
+    </picture>
   </div>
 </section>
 
