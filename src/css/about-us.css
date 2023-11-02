@@ -23,6 +23,20 @@
 }
 .about-us-img {
   border-radius: 4px;
+  width: 335px;
+  height: 499px;
+}
+@media screen and (min-width: 768px) {
+  .about-us-img {
+    width: 704px;
+    height: 545px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .about-us-img {
+    width: 594px;
+    height: 545px;
+  }
 }
 .about-us-section {
   padding-bottom: 62px;
@@ -41,12 +55,12 @@
 }
 @media screen and (min-width: 768px) {
   .about-us-section {
-    background-image: url(../images/largedesctopaboutuselements.png);
-    background-size: 250px 408px;
+    background-image: url(../images/tabletaboutuselements.png);
+    background-size: 369px 448px;
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .about-us-section {
-      background-image: url(../images/mobileaboutuselements.png);
+      background-image: url(../images/tabletaboutuselements.png);
     }
   }
 }
