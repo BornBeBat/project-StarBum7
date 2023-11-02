@@ -1,5 +1,5 @@
 body {
-  font-family: 'Monospore', sans-serif;
+  font-family: 'Manrope', sans-serif;
   background-color: #1c2225;
 }
 .container {
@@ -23,6 +23,5 @@ body {
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1400px;
-    padding: 0 100px;
   }
 }
