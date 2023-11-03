@@ -63,7 +63,7 @@
 }
 @media screen and (min-width: 1440px) {
   .hero-tittle {
-    max-width: 632px;
+    max-width: 630px;
     font-size: 64px;
     font-weight: 400;
     line-height: 1.16;
@@ -85,7 +85,6 @@
 }
 @media screen and (min-width: 1440px) {
   .span-hero {
-    max-width: 632px;
     font-size: 64px;
     font-weight: 400;
     line-height: 1.16;
