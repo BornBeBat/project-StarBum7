@@ -38,13 +38,13 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    background-image: url(../images/footer/footer-elements-desctop.png);
+    background-image: url('../images/footer/footer-elements-desctop.png');
     background-size: 594px 528px;
     background-position: top calc(-61px) right calc(50% - 602px);
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .footer {
-      background-image: url(../images/footer/footer-elements-desctop@2x.png);
+      background-image: url('../images/footer/footer-elements-desctop@2x.png');
     }
   }
 }
