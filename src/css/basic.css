@@ -63,3 +63,7 @@ button {
   color: currentColor;
   cursor: pointer;
 }
+
+.hide {
+  display: none !important;
+}
