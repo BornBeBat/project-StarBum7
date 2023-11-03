@@ -1,235 +1,226 @@
-.order-section{
-    overflow: hidden;
+.order-section {
+  overflow: hidden;
 }
 
-.order-section::before{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 550px;
-    background-image: url(../images/img-your-order/mobile-background@1x.jpg), 
-                      linear-gradient( to top left, #cfd1ce, #eaeeef);
-    background-repeat: no-repeat;
-    background-position: center;
-} 
+.order-section::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/img-your-order/mobile-background@1x.jpg),
+    linear-gradient(to top left, #cfd1ce, #eaeeef);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .order-section::before{
-      background-image: url(../images/img-your-order/mobile-background@2x.jpg);
-    }
+  .order-section::before {
+    background-image: url(../images/img-your-order/mobile-background@2x.jpg);
   }
+}
 
 @media screen and (min-width: 768px) {
-    .order-section::before{
-        height: 776px;
-        background-image: url(../images/img-your-order/tablet-background@1x.jpg), 
-        linear-gradient( to bottom right, #cfd1ce, #eaeeef);
-    } 
-    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        .order-section::before{
-          background-image: url(../images/img-your-order/tablet-background@2x.jpg);
-        }
-      }
+  .order-section::before {
+    height: 776px;
+    background-image: url(../images/img-your-order/tablet-background@1x.jpg),
+      linear-gradient(to bottom right, #cfd1ce, #eaeeef);
+  }
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .order-section::before {
+      background-image: url(../images/img-your-order/tablet-background@2x.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .order-section::before{
-        background-image: url(../images/img-your-order/large-desc-background@1x.jpg),
-        linear-gradient( to right, rgba(220, 225, 221, 1), rgba(234,238,237, 1));
+  .order-section::before {
+    background-image: url(../images/img-your-order/large-desc-background@1x.jpg),
+      linear-gradient(to right, rgba(220, 225, 221, 1), rgba(234, 238, 237, 1));
+  }
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .order-section::before {
+      background-image: url(../images/img-your-order/tablet-background@2x.jpg);
     }
-    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        .order-section::before{
-          background-image: url(../images/img-your-order/tablet-background@2x.jpg);
-        }
-      }
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .order-section::before{
-        background-image: url(../images/img-your-order/desctop-background@1x.jpg),
-        linear-gradient( to right, rgba(228, 234,230, 1), rgba(233,239, 237, 1));
+  .order-section::before {
+    background-image: url(../images/img-your-order/desctop-background@1x.jpg),
+      linear-gradient(to right, rgba(228, 234, 230, 1), rgba(233, 239, 237, 1));
+  }
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .order-section::before {
+      background-image: url(../images/img-your-order/desctop-background@2x.jpg);
     }
-    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        .order-section::before{
-          background-image: url(../images/img-your-order/desctop-background@2x.jpg);
-        }
-      }
+  }
 }
-
 
 /*==================== ornament ============================*/
 
 @media screen and (min-width: 768px) {
-    .order-section{
-        width: 100%;
-        height: 100%;
-        background-color: #1C2225;
-        background-image: url(../images/img-your-order/ornament.png);
-        min-width: 545px;
-        background-repeat: no-repeat;
-        background-position:bottom left;
-        color: var(--color-op10);  
-        }
-    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-         .order-section{
-              background-image: url(../images/img-your-order/ornament@2x.png);
-        }
-    }    
+  .order-section {
+    width: 100%;
+    height: 100%;
+    background-color: #1c2225;
+    background-image: url(../images/img-your-order/ornament.png);
+    min-width: 545px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    color: var(--color-op10);
+  }
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .order-section {
+      background-image: url(../images/img-your-order/ornament@2x.png);
+    }
+  }
 }
-
-
-
 
 /*================= /ornament ==================*/
 
-.order-div{
-    margin-top: 80px;
+.order-div {
+  margin-top: 80px;
 }
 
 @media screen and (min-width: 768px) {
-    .order-div{
-        margin-top: 100px;
-    }
+  .order-div {
+    margin-top: 100px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .order-div{
-        margin-top: 150px;
-        align-items: flex-start;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-        gap: 50px;
-    }
+  .order-div {
+    margin-top: 150px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 50px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .container-your-order{
-        margin-bottom: 100px;
-    
-    }
+  .container-your-order {
+    margin-bottom: 100px;
+  }
 }
 @media screen and (min-width: 1280px) {
-    .container-your-order{
-        margin-bottom: 0px;
-    }
+  .container-your-order {
+    margin-bottom: 0px;
+  }
 }
 
-
-.order-title{
-    color: var(--white, #FCF9F9);
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.38;
-    letter-spacing: -0.96px;
-    margin-bottom: 40px;
+.order-title {
+  color: var(--white, #fcf9f9);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-    .order-title{
+  .order-title {
     width: 542px;
     font-size: 44px;
     line-height: 1.32;
     letter-spacing: -1.32px;
-    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .order-title{
-       min-width: 666px;
-    }
+  .order-title {
+    min-width: 666px;
+  }
 }
 
-.order-title-color{
-    color: #ECD979;
-}
-
-@media screen and (min-width: 768px) {
-    .order-form{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-}
-
-.order-imput-form{
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    background-color: transparent;
-    display: flex;
-    width: 100%;
-    padding: 14px 16px;
-    align-items: flex-start;
-    gap: 8px;
-    color: var(--white, #FCF9F9);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.28px;
-    margin-bottom: 20px;
-    
-}
-
-.order-imput-form:focus{
-    outline: 1px solid rgba(252, 249, 249, 0.60);
-}
-.order-texteria{
-    margin-bottom: 40px;
-    resize: none;
+.order-title-color {
+  color: #ecd979;
 }
 
 @media screen and (min-width: 768px) {
-    .order-imput-form{
-        width: 508px;
- }
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
 }
 
+.order-imput-form {
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  display: flex;
+  width: 100%;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  margin-bottom: 20px;
+}
 
-.order-btn{
-    display: flex;
-    height: 49px;
-    padding: 14px 36px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    background-color: transparent;
-    cursor: pointer;
-    color: var(--white, #FCF9F9);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.56px;
-    text-transform: uppercase;
-    margin: 0 auto;
+.order-imput-form:focus {
+  outline: 1px solid rgba(252, 249, 249, 0.6);
+}
+.order-texteria {
+  margin-bottom: 40px;
+  resize: none;
+}
+
+@media screen and (min-width: 768px) {
+  .order-imput-form {
+    width: 508px;
+  }
+}
+
+.order-btn {
+  display: flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .order-btn:hover,
 .order-btn:focus {
-    border: 1px solid var(--yellow, #ECD979);
+  border: 1px solid var(--yellow, #ecd979);
 }
-.btn-order-icon{
-    fill: var(--yellow, #ECD979);
-}
-
-@media screen and (min-width: 768px) {
-    .order-btn{
-        margin: 0px;
-    }
-}
-.img-your-order{
-    display: none;
-    
+.btn-order-icon {
+  fill: var(--yellow, #ecd979);
 }
 
 @media screen and (min-width: 768px) {
-    .img-your-order{
-        display: block;
-        border-radius: 4px;
-       /* padding-right: 0px;
+  .order-btn {
+    margin: 0px;
+  }
+}
+.img-your-order {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .img-your-order {
+    display: block;
+    border-radius: 4px;
+    /* padding-right: 0px;
             
         background-color: #1C2225;
         background-image: url(../images/img-your-order/ornament.png);
@@ -237,33 +228,32 @@
         background-repeat: no-repeat;
         background-position:bottom left;
         color: var(--color-op10);   */
-        }
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .img-your-order{
-        width: 524px;
-        height: 521px;
-    }
+  .img-your-order {
+    width: 524px;
+    height: 521px;
+  }
 }
 
-.tablet-choose{
-    width: 100%;
-    padding-left: 66px;
-    padding-bottom: 76px;
+.tablet-choose {
+  width: 100%;
+  padding-left: 66px;
+  padding-bottom: 76px;
 }
 
 @media screen and (min-width: 1280px) {
-    .tablet-choose{
+  .tablet-choose {
     display: none;
+  }
 }
-}
-.desctop-choose{
-    display: none;
+.desctop-choose {
+  display: none;
 }
 @media screen and (min-width: 1280px) {
-    .desctop-choose{
-        display: block;
-
-    }
+  .desctop-choose {
+    display: block;
+  }
 }
