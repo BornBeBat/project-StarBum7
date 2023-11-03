@@ -4,4 +4,9 @@
   --color-op50: rgba(252, 249, 249, 0.5);
   --color-op40: rgba(252, 249, 249, 0.4);
   --color-op10: rgba(252, 249, 249, 0.1);
+
+  /* Card set */
+  --indent-y: 20px;
+  --indent-x: var(--indent-y);
+  --items: 1;
 }
