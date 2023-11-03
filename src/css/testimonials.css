@@ -51,6 +51,7 @@
 
 .reviewers {
   position: absolute;
+  width: 64px;
 
   top: -24px;
   left: calc(50% - 64px / 2);
