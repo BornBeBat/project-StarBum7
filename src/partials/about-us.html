@@ -21,10 +21,17 @@
     </div>
     <picture>
       <source
-        media="(min-width: 375px)"
+        media="(min-width: 1440px)"
         srcset="
-          ./images/about-us/mobileaboutus@1x.jpg 1x,
-          ./images/about-us/mobileaboutus@2x.jpg 2x
+          ./images/about-us/largedesctopaboutus@1x.jpg 1x,
+          ./images/about-us/largedesctopaboutus@2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./images/about-us/desctopaboutus@1x.jpg 1x,
+          ./images/about-us/desctopaboutus@2x.jpg 2x
         "
       />
       <source
@@ -35,23 +42,17 @@
         "
       />
       <source
-        media="(min-width: 1280px)"
+        media="(min-width: 375px)"
         srcset="
-          ./images/about-us/desctophero@1x.jpg 1x,
-          ./images/about-us/desctophero@2x.jpg 2x
-        "
-      />
-      <source
-        media="(min-width: 1440px)"
-        srcset="
-          ./images/about-us/largedesctopaboutus@1x.jpg 1x,
-          ./images/about-us/largedesctopaboutus@2x.jpg 2x
+          ./images/about-us/mobileaboutus@1x.jpg 1x,
+          ./images/about-us/mobileaboutus@2x.jpg 2x
         "
       />
       <img
         class="about-us-img"
         src="./images/about-us/mobileaboutus@1x.jpg"
         alt="girl and boy"
+        loading="lazy"
       />
     </picture>
   </div>
