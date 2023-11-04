@@ -30,7 +30,6 @@
 
 .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -49,6 +48,12 @@
 @media only screen and (min-width: 1280px) {
     .page-nav {
         margin-right: 129px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .page-nav {
+        margin-right: 289px;
     }
 }
 
@@ -216,7 +221,7 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     z-index: 999;
-    opacity: 1;
+    /* opacity: 1; */
 
     transform: translateX(100%);
     transition: ;
@@ -258,7 +263,7 @@
         font-size: 14px;
         line-height: 1.43;
         padding: 14px 28px;
-        margin-bottom: 339px;
+        margin-bottom: 223px;
     }
 }
 
