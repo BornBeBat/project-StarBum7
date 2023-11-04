@@ -123,6 +123,7 @@
   line-height: normal;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+  transition: border-color var(--delay) var(--trnz);
 }
 .button-hero:hover {
   border-color: var(--accent-color);

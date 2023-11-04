@@ -77,7 +77,7 @@
     line-height: 1.29;
     text-transform: uppercase;
 
-    transition: ;
+    transition: color var(--delay) var(--trnz);
 }
 
 .menu-link:hover,
@@ -113,7 +113,7 @@
     border-radius: 15px;
     border: 1px solid var(--color-op10);
 
-    transition: ;
+    transition: border-color var(--delay) var(--trnz);
 }
 
 .contacts-link:hover,
@@ -155,7 +155,7 @@
     width: 100%;
     height: 100%;
 
-    transition: ;
+    transition: border-color var(--delay) var(--trnz);
 }
 
 .header-icons-link:hover,
@@ -192,23 +192,24 @@
 /* ==========/NAVIGATION=========== */
 
 /* ============MOBILE MENU=========== */
-/* .backdrop-container {
+.backdrop-container {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 998;
     width: 100%;
     height: 100%;
-    background: var(--background-burger-menu-op20);
+    background: var(--color-burger-menu-op10);
     backdrop-filter: blur(3px);
-    opacity: 0;
     pointer-events: none;
-} */
+    opacity: 0;
+} 
+
+.is-open.backdrop-container {
+    opacity: 1;
+}
 
 .menu-container {
-    position: fixed;
-    top: 0;
-    right: 0;
     margin-left: auto;
 
     display: flex;
@@ -221,10 +222,17 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     z-index: 999;
-    /* opacity: 1; */
 
     transform: translateX(100%);
-    transition: ;
+    transition: transform var(--delay) var(--trnz);
+}
+
+.is-open .menu-container {
+    pointer-events: all;
+    transform: translateX(0);
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -233,10 +241,6 @@
         padding: 20px 32px 0;
         background-image: url(../images/mobile-menu/tabletburgerbackgroundelements.png);
     }
-}
-
-.menu-container.is-open {
-    transform: translateX(0);
 }
 
 .menu-contacts-link {
@@ -251,10 +255,12 @@
 
     border-radius: 15px;
     border: 1px solid var(--color-burger-menu-op10);
+    transition: border-color var(--delay) var(--trnz), color var(--delay) var(--trnz);
 }
 
-.menu-contacts-link:hover.
+.menu-contacts-link:hover,
 .menu-contacts-link:focus {
+    color: var(--color);
     border-color: var(--color);
 }
 
@@ -283,7 +289,7 @@
     color: var(--color-burger-menu);
     background-color: transparent;
 
-    transition: ;
+    transition: color var(--delay) var(--trnz);
 }
 
 .menu-toggle:hover,
@@ -303,7 +309,6 @@
 
 .menu-toggle-icon {
     stroke: currentColor;
-    transition: ;
 }
 
 .mobile-menu-item {
@@ -325,9 +330,11 @@
     font-weight: 400;
     line-height: 1.29;
     text-transform: uppercase;
+    transition: color var(--delay) var(--trnz);
 }
 
-.mobile-menu-link.active {
+.mobile-menu-link:hover,
+.mobile-menu-link:focus {
     color: var(--color);
 }
 
@@ -344,10 +351,5 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-.menu-contacts-link.active {
-    color: var(--color);
-    background-color: var(--color-burger-menu);
 }
 /* ===========-MOBILE MENU=========== */
