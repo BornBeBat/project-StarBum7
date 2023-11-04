@@ -30,11 +30,26 @@
     justify-content: start;
   }
 }
+.thumb-hero-tittle {
+  animation: slide-bottom 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
 @media screen and (min-width: 1280px) {
   .thumb-hero-tittle {
     margin-left: 40px;
     display: flex;
     flex-direction: column;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    scale: 1.5;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    scale: 1;
   }
 }
 .hero-tittle {
@@ -136,7 +151,6 @@
 }
 .image-hero-first {
   width: 335px;
-  height: 545px;
 }
 @media screen and (min-width: 768px) {
   .image-hero-first {
