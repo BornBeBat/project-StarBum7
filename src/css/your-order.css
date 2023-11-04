@@ -223,6 +223,7 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
   margin: 0 auto;
+  transition: border-color var(--delay) var(--trnz);
 }
 
 .order-btn:hover,
