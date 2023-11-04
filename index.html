@@ -23,7 +23,7 @@
     />
     
     <script type="module" crossorigin src="/project-StarBum7/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-StarBum7/assets/index-acd47c19.css">
+    <link rel="stylesheet" href="/project-StarBum7/assets/index-872487ed.css">
   </head>
   <body>
     <!-- Header -->
@@ -473,65 +473,53 @@
 </section>
 
       <section class="order-section">
-  <div class="container order-div">
-    <div class="container-your-order">
-      <h2 id="order" class="order-title">
-        <span class="order-title-color">Your order</span> is our priority:
-        Personalized approach and quality of service
-      </h2>
-      <form>
-        <div class="order-form">
-          <input
-            class="order-imput-form"
-            type="text"
-            name="user-name"
-            placeholder="Enter your full name"
-            required
-            pattern="[a-zA-z]*\s[a-zA-z]*"
-            title="Name must contain two word separated by space"
-          />
-          <input
-            class="order-imput-form"
-            type="email"
-            name="user-email"
-            placeholder="Enter your email"
-            required
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          />
-          <textarea
-            class="order-imput-form order-texteria"
-            name="user-comment"
-            placeholder="Comments"
-          ></textarea>
-          <button type="submit" class="order-btn">
-            Send
-            <svg class="btn-order-icon" width="26" height="10">
-              <use href="/project-StarBum7/assets/order-f6679dcf.svg#send-arrow"></use>
-            </svg>
-          </button>
+    <div class=" container order-div">
+        <div class=" container-your-order">
+            <h2 id="order" class="order-title"><span class="order-title-color">Your order</span> is our priority: Personalized approach and quality of service</h2>
+            <form>
+                <div class="order-form" >
+                    <input class="order-imput-form"
+                           type="text"
+                           name="user-name"
+                           placeholder="Enter your full name"
+                           required
+                           pattern="[a-zA-z]*\s[a-zA-z]*"
+                           title="Name must contain two word separated by space"/>
+                    <input class="order-imput-form"
+                           type="email"
+                           name="user-email"
+                           placeholder="Enter your email"
+                           required
+                           pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"/>
+                    <textarea class="order-imput-form order-texteria"
+                              name="user-comment"
+                              rows="10"
+                              placeholder="Comments"></textarea>
+                    <button type="submit" class="order-btn">Send
+                         <svg class="btn-order-icon" width="26" height="10">
+                             <use  href="/project-StarBum7/assets/order-f6679dcf.svg#send-arrow">
+                             </use>
+                         </svg>
+                    </button>
+                </div>
+            </form>
         </div>
-      </form>
-    </div>
-    <div class="img-your-order">
-      <img
-        class="tablet-choose"
-        srcset="/project-StarBum7/assets/tablet-choose@@1x-34ae24f2.jpg 1x, /project-StarBum7/assets/tablet-choose@2x-4a4a3538.jpg 2x"
-        src="/project-StarBum7/assets/tablet-choose@@1x-34ae24f2.jpg"
-        alt="embroidered aleeve"
-        loading="lazy"
-        width="638"
-        height="521"
-      />
-      <img
-        class="desctop-choose"
-        srcset="/project-StarBum7/assets/desctop-choose@1x-085c1d84.jpg 1x, /project-StarBum7/assets/desctopy-choose@2x-bae5e372.jpg 2x"
-        src="/project-StarBum7/assets/desctop-choose@1x-085c1d84.jpg"
-        alt="embroidered aleeve"
-        loading="lazy"
-        width="524"
-        height="521"
-      />
-    </div>
+        <picture class="img-your-order">
+          <source media="(min-width: 1440px)" 
+                  srcset="/project-StarBum7/assets/desctop-choose@1x-085c1d84.jpg 1x, /project-StarBum7/assets/desctopy-choose@2x-bae5e372.jpg 2x">
+          <source media="(min-width: 1280px)" 
+                  srcset="/project-StarBum7/assets/desctop-choose@1x-085c1d84.jpg 1x, /project-StarBum7/assets/desctopy-choose@2x-bae5e372.jpg 2x">
+          <source media="(min-width: 768px)" 
+                  srcset="/project-StarBum7/assets/tablet-choose@@1x-34ae24f2.jpg 1x, /project-StarBum7/assets/tablet-choose@2x-4a4a3538.jpg 2x">
+          <source media="(max-width: 767px)" 
+                  srcset="/project-StarBum7/assets/tablet-choose@@1x-34ae24f2.jpg 1x, /project-StarBum7/assets/tablet-choose@2x-4a4a3538.jpg 2x">
+          <img class="tablet-choose" 
+                 src="/project-StarBum7/assets/tablet-choose@@1x-34ae24f2.jpg"
+                 alt="embroidered aleeve"
+                 loading="lazy"
+                 width="638"
+                 height="521"/>    
+        </picture>
   </div>
 </section>
 
