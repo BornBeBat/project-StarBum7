@@ -42,14 +42,10 @@
 }
 @keyframes slide-bottom {
   0% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    scale: 1.5;
+    transform: translateY(-100%) scale(1.5);
   }
   100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    scale: 1;
+    transform: translateY(0) scale(1);
   }
 }
 .hero-tittle {
