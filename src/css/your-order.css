@@ -263,16 +263,6 @@
   padding-bottom: 76px;
 }
 
-@media screen and (min-width: 1280px) {
-  .tablet-choose {
-    display: none;
-  }
-}
-.desctop-choose {
+.hide{
   display: none;
-}
-@media screen and (min-width: 1280px) {
-  .desctop-choose {
-    display: block;
-  }
 }
