@@ -146,21 +146,7 @@
 .svg-button-hero {
   fill: var(--accent-color);
 }
-.image-hero-first {
-  width: 335px;
-}
-@media screen and (min-width: 768px) {
-  .image-hero-first {
-    width: 413px;
-    height: 575px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .image-hero-first {
-    width: 395px;
-    height: 545px;
-  }
-}
+
 .thumb-hero {
   display: none;
 }
@@ -180,9 +166,6 @@
   .thumb-hero {
     right: 100px;
   }
-}
-.img-hero-second {
-  width: 100%;
 }
 
 .thumb-hero-second {
