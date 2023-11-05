@@ -1,7 +1,3 @@
-.order-section {
-  overflow: hidden;
-}
-
 .order-section::before {
   content: '';
   display: block;
