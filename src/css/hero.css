@@ -30,9 +30,9 @@
     justify-content: start;
   }
 }
-.thumb-hero-tittle {
+/* .thumb-hero-tittle {
   animation: slide-bottom 1s cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 @media screen and (min-width: 1280px) {
   .thumb-hero-tittle {
     margin-left: 40px;
@@ -40,14 +40,14 @@
     flex-direction: column;
   }
 }
-@keyframes slide-bottom {
+/* @keyframes slide-bottom {
   0% {
     transform: translateY(-100%) scale(1.5);
   }
   100% {
     transform: translateY(0) scale(1);
   }
-}
+} */
 .hero-tittle {
   color: var(--color);
   font-size: 44px;
