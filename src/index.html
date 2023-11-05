@@ -13,14 +13,14 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <!-- modern normalize -->
+
+    <!-- Animation -->
     <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      fetchpriority="low"
     />
+    <!-- /animation -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -40,5 +40,10 @@
 
     <!-- Mobile/tabelt Menu JS -->
     <script type="module" src="/main.js"></script>
+    <!-- Animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
