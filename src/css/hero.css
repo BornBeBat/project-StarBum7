@@ -30,11 +30,22 @@
     justify-content: start;
   }
 }
+.thumb-hero-tittle {
+  animation: slide-bottom 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
 @media screen and (min-width: 1280px) {
   .thumb-hero-tittle {
     margin-left: 40px;
     display: flex;
     flex-direction: column;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(-100%) scale(1.5);
+  }
+  100% {
+    transform: translateY(0) scale(1);
   }
 }
 .hero-tittle {
@@ -108,6 +119,7 @@
   line-height: normal;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+  transition: border-color var(--delay) var(--trnz);
 }
 .button-hero:hover {
   border-color: var(--accent-color);
@@ -136,7 +148,6 @@
 }
 .image-hero-first {
   width: 335px;
-  height: 545px;
 }
 @media screen and (min-width: 768px) {
   .image-hero-first {

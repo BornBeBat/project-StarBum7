@@ -14,7 +14,9 @@
 }
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .order-section::before {
-    background-image: url(../images/img-your-order/mobile-background@2x.jpg);
+    background-image: url(../images/img-your-order/mobile-background@2x.jpg),
+      linear-gradient(to top left, #cfd1ce, #eaeeef);
+    background-size: contain;
   }
 }
 
@@ -26,31 +28,49 @@
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
-      background-image: url(../images/img-your-order/tablet-background@2x.jpg);
+      background-image: url(../images/img-your-order/tablet-background@2x.jpg),
+        linear-gradient(
+          to right,
+          rgba(228, 234, 230, 1),
+          rgba(233, 239, 237, 1)
+        );
+      background-size: contain;
     }
   }
 }
 
 @media screen and (min-width: 1280px) {
   .order-section::before {
-    background-image: url(../images/img-your-order/large-desc-background@1x.jpg),
+    background-image: url(../images/img-your-order/desctop-background@1x.jpg),
       linear-gradient(to right, rgba(220, 225, 221, 1), rgba(234, 238, 237, 1));
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
-      background-image: url(../images/img-your-order/tablet-background@2x.jpg);
+      background-image: url(../images/img-your-order/desctop-background@2x.jpg),
+        linear-gradient(
+          to right,
+          rgba(220, 225, 221, 1),
+          rgba(234, 238, 237, 1)
+        );
+      background-size: contain;
     }
   }
 }
 
 @media screen and (min-width: 1440px) {
   .order-section::before {
-    background-image: url(../images/img-your-order/desctop-background@1x.jpg),
+    background-image: url(../images/img-your-order/large-desc-background@1x.jpg),
       linear-gradient(to right, rgba(228, 234, 230, 1), rgba(233, 239, 237, 1));
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
-      background-image: url(../images/img-your-order/desctop-background@2x.jpg);
+      background-image: url(../images/img-your-order/large-desc-background@2x.jpg),
+        linear-gradient(
+          to right,
+          rgba(228, 234, 230, 1),
+          rgba(233, 239, 237, 1)
+        );
+      background-size: contain;
     }
   }
 }
@@ -65,13 +85,20 @@
     background-image: url(../images/img-your-order/ornament.png);
     min-width: 545px;
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom left calc(50% - 381px);
     color: var(--color-op10);
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section {
       background-image: url(../images/img-your-order/ornament@2x.png);
+      background-size: 545px 484px;
     }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-section {
+    background-position: bottom left calc(50% - 621px);
   }
 }
 
@@ -95,6 +122,7 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 50px;
+    padding-left: 64px;
   }
 }
 
@@ -150,11 +178,8 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
-  display: flex;
   width: 100%;
   padding: 14px 16px;
-  align-items: flex-start;
-  gap: 8px;
   color: var(--white, #fcf9f9);
   font-size: 14px;
   font-style: normal;
@@ -168,6 +193,7 @@
   outline: 1px solid rgba(252, 249, 249, 0.6);
 }
 .order-texteria {
+  height: 196px;
   margin-bottom: 40px;
   resize: none;
 }
@@ -197,6 +223,7 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
   margin: 0 auto;
+  transition: border-color var(--delay) var(--trnz);
 }
 
 .order-btn:hover,
@@ -236,16 +263,6 @@
   padding-bottom: 76px;
 }
 
-@media screen and (min-width: 1280px) {
-  .tablet-choose {
-    display: none;
-  }
-}
-.desctop-choose {
+.hide{
   display: none;
-}
-@media screen and (min-width: 1280px) {
-  .desctop-choose {
-    display: block;
-  }
 }
