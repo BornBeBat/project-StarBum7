@@ -61,9 +61,14 @@
   gap: 25px 40px;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 375.98px) {
+  .footer-list {
+    column-gap: 25px;
+  }
+}
 @media screen and (max-width: 767.98px) {
   .footer-list {
-    width: 280px;
+    align-items: start;
     height: 61px;
   }
 }
