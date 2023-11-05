@@ -7,17 +7,47 @@
   display: block;
   width: 100%;
   height: 550px;
-  background-image: url(../images/img-your-order/mobile-background@1x.jpg),
-    linear-gradient(to top left, #cfd1ce, #eaeeef);
+  background-image: url(../images/img-your-order/mobile-background.png),
+    linear-gradient(to bottom right,
+        #D2D4D1,
+        #D9DBD8,
+        #E1E3E0,
+        #E1E3E0,
+        #E7EBEA,
+        #EAEEED);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .order-section::before {
-    background-image: url(../images/img-your-order/mobile-background@2x.jpg),
-      linear-gradient(to top left, #cfd1ce, #eaeeef);
-    background-size: contain;
+@media screen and (max-width: 375.98px) {
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .order-section::before {
+      background-image: url(../images/img-your-order/mobile-background@2x.png),
+        linear-gradient(to bottom right,
+            #D2D4D1,
+            #D9DBD8,
+            #E1E3E0,
+            #E1E3E0,
+            #E7EBEA,
+            #EAEEED);
+      background-size: cover;
+    }
+  }
+}
+
+@media screen and (min-width: 376px) {
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .order-section::before {
+      background-image: url(../images/img-your-order/mobile-background@2x.png),
+        linear-gradient(to bottom right,
+          #D2D4D1,
+          #D9DBD8,
+          #E1E3E0,
+          #E1E3E0,
+          #E7EBEA,
+          #EAEEED);
+      background-size: contain;
+    }
   }
 }
 
@@ -25,7 +55,7 @@
 @media screen and (min-width: 768px) {
   .order-section::before {
     height: 776px;
-    background-image: url(../images/img-your-order/tablet-background@1x.jpg),
+    background-image: url(../images/img-your-order/tablet-backgroud.png),
       linear-gradient(to bottom right,
         #D2D4D1,
         #D9DBD8,
@@ -36,7 +66,7 @@
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
-      background-image: url(../images/img-your-order/tablet-background@2x.jpg),
+      background-image: url(../images/img-your-order/tablet-backgroud@2x.png),
         linear-gradient(
           to bottom right,
             #D2D4D1,
@@ -52,17 +82,25 @@
 
 @media screen and (min-width: 1280px) {
   .order-section::before {
-    background-image: url(../images/img-your-order/desctop-background@1x.jpg),
-      linear-gradient(to right, rgba(220, 225, 221, 1), rgba(234, 238, 237, 1));
+    background-image: url(../images/img-your-order/large-background.png),
+      linear-gradient(to bottom right,
+          #C5CAC6,
+          #D2D7D3,
+          #DFE4E0,
+          #E4EAE8,
+          #E6ECEA,
+          #E7EDED);
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
-      background-image: url(../images/img-your-order/desctop-background@2x.jpg),
-        linear-gradient(
-          to right,
-          rgba(220, 225, 221, 1),
-          rgba(234, 238, 237, 1)
-        );
+      background-image: url(../images/img-your-order/large-background@2x.png),
+        linear-gradient(to bottom right,
+            #C5CAC6,
+            #D2D7D3,
+            #DFE4E0,
+            #E4EAE8,
+            #E6ECEA,
+            #E7EDED);
       background-size: contain;
     }
   }
@@ -70,16 +108,25 @@
 
 @media screen and (min-width: 1440px) {
   .order-section::before {
-    background-image: url(../images/img-your-order/large-desc-background@1x.jpg),
-      linear-gradient(to right, rgba(228, 234, 230, 1), rgba(233, 239, 237, 1));
+    background-image: url(../images/img-your-order/desktop-background.png),
+      linear-gradient(to bottom right,
+          #D2D4D1,
+          #D9DBD8,
+          #E1E3E0,
+          #E1E3E0,
+          #E7EBEA,
+          #EAEEED);
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
-      background-image: url(../images/img-your-order/large-desc-background@2x.jpg),
-        linear-gradient(
-          to right,
-          rgba(228, 234, 230, 1),
-          rgba(233, 239, 237, 1)
+      background-image: url(../images/img-your-order/desktop-background@2x.png),
+        linear-gradient(to bottom right,
+            #D2D4D1,
+            #D9DBD8,
+            #E1E3E0,
+            #E1E3E0,
+            #E7EBEA,
+            #EAEEED
         );
       background-size: contain;
     }
