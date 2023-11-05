@@ -168,22 +168,16 @@
   .thumb-hero {
     display: block;
     position: absolute;
-    bottom: -80px;
+    bottom: -100px;
     right: 32px;
-    width: 157px;
-    height: 191px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 0%;
-    border-bottom-left-radius: 0%;
+    width: 139px;
+    height: 197px;
+    border-radius: 50% / 50%;
     overflow: hidden;
   }
 }
 @media screen and (min-width: 1280px) {
   .thumb-hero {
-    width: 142px;
-    height: 156px;
-    bottom: -55px;
     right: 100px;
   }
 }
