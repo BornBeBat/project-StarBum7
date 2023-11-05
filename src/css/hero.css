@@ -203,6 +203,16 @@
 }
 .svg-hero {
   fill: var(--accent-color);
+  animation: rotate-in-center 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    alternate both;
+}
+@keyframes rotate-in-center {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 .hero-paragraph {
   color: var(--color-op40);
