@@ -24,16 +24,25 @@
   .order-section::before {
     height: 776px;
     background-image: url(../images/img-your-order/tablet-background@1x.jpg),
-      linear-gradient(to bottom right, #cfd1ce, #eaeeef);
+      linear-gradient(to bottom right,
+        #D2D4D1,
+        #D9DBD8,
+        #E1E3E0,
+        #E1E3E0,
+        #E7EBEA,
+        #EAEEED);
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
       background-image: url(../images/img-your-order/tablet-background@2x.jpg),
         linear-gradient(
-          to right,
-          rgba(228, 234, 230, 1),
-          rgba(233, 239, 237, 1)
-        );
+          to bottom right,
+            #D2D4D1,
+            #D9DBD8,
+            #E1E3E0,
+            #E1E3E0,
+            #E7EBEA,
+            #EAEEED);
       background-size: contain;
     }
   }
@@ -192,6 +201,7 @@
 .order-imput-form:focus {
   outline: 1px solid rgba(252, 249, 249, 0.6);
 }
+
 .order-texteria {
   height: 196px;
   margin-bottom: 40px;
