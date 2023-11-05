@@ -13,6 +13,11 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- /animation -->
+
     <!-- modern normalize -->
     <link
       rel="stylesheet"
@@ -263,7 +268,7 @@
     <h2 class="collection-header" id="collection">Our collection</h2>
     <ul class="collection-ul">
       <!--  Picture 1 -->
-      <li class="collection-list">
+      <li class="collection-list" data-aos="flip-left">
         <picture>
           <source
             media="(min-width: 320px)"
@@ -301,7 +306,7 @@
         </div>
       </li>
       <!--  Picture 2 -->
-      <li class="collection-list">
+      <li class="collection-list" data-aos="flip-left" data-aos-delay="100">
         <picture>
           <source
             media="(min-width: 320px)"
@@ -334,7 +339,7 @@
         </div>
       </li>
       <!--  Picture 3 -->
-      <li class="collection-list">
+      <li class="collection-list" data-aos="flip-left" data-aos-delay="150">
         <picture>
           <source
             media="(min-width: 320px)"
@@ -367,7 +372,7 @@
         </div>
       </li>
       <!--  Picture 4 -->
-      <li class="collection-list">
+      <li class="collection-list" data-aos="flip-left" data-aos-delay="200">
         <picture>
           <source
             media="(min-width: 320px)"
@@ -400,7 +405,7 @@
         </div>
       </li>
       <!--  Picture 5 -->
-      <li class="collection-list">
+      <li class="collection-list" data-aos="flip-left" data-aos-delay="250">
         <picture>
           <source
             media="(min-width: 320px)"
@@ -436,7 +441,7 @@
         </div>
       </li>
       <!--  Picture 6 -->
-      <li class="collection-list">
+      <li class="collection-list" data-aos="flip-left" data-aos-delay="300">
         <picture>
           <source
             media="(min-width: 320px)"
@@ -607,5 +612,10 @@
 
     <!-- Mobile/tabelt Menu JS -->
     
+    <!-- Animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
