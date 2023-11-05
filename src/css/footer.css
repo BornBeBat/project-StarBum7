@@ -95,6 +95,12 @@
   transition: color var(--delay) var(--trnz), box-shadow 700ms ease-in-out,
     background-size 400ms ease-in-out;
 }
+@media not (hover: hover) {
+  .footer-item:active {
+    color: var(--accent-color);
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .footer-item {
     padding-top: 12px;
