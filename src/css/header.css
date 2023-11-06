@@ -39,24 +39,6 @@
   margin-right: auto;
 }
 
-@media only screen and (min-width: 768px) {
-  .page-nav {
-    margin-right: 440px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .page-nav {
-    margin-right: 129px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .page-nav {
-    margin-right: 289px;
-  }
-}
-
 .menu {
   display: flex;
   align-items: flex-start;
