@@ -1,17 +1,5 @@
 .order-section {
   overflow: hidden;
-  padding-bottom: 40.5px;
-}
-
-@media screen and (min-width: 1280px) {
-  .order-section {
-    padding-bottom: 50px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .order-section {
-    padding-bottom: 75px;
-  }
 }
 
 .order-section::before {
@@ -170,7 +158,7 @@
     background-image: url(../images/img-your-order/ornament.png);
     min-width: 545px;
     background-repeat: no-repeat;
-    background-position: bottom left calc(50% - 381px);
+    background-position: bottom left calc(50% - 334px);
     color: var(--color-op10);
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -186,7 +174,11 @@
     background-position: bottom left calc(50% - 621px);
   }
 }
-
+@media screen and (min-width: 1440px) {
+  .order-section {
+    background-position: bottom left calc(50% - 669px);
+  }
+}
 /*================= /ornament ==================*/
 
 .order-div {
@@ -201,12 +193,18 @@
 
 @media screen and (min-width: 1280px) {
   .order-div {
+    padding: 0 64px;
     margin-top: 150px;
     align-items: flex-start;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .order-div {
+    justify-content: center;
   }
 }
 
@@ -270,7 +268,17 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.02em;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+}
+@media screen and (min-width: 768px) {
+  .order-imput-form {
+    margin-bottom: 22px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .order-imput-form {
+    margin-bottom: 20px;
+  }
 }
 
 .order-imput-form:focus {
@@ -281,6 +289,11 @@
   height: 196px;
   margin-bottom: 36px;
   resize: none;
+}
+@media screen and (min-width: 768px) {
+  .order-texteria {
+    margin-bottom: 41px;
+  }
 }
 
 @media screen and (min-width: 768px) {
