@@ -1,7 +1,3 @@
-.order-section {
-  overflow: hidden;
-}
-
 .order-section::before {
   content: '';
   display: block;
@@ -281,12 +277,16 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
   margin: 0 auto;
-  transition: border-color var(--delay) var(--trnz);
+  transition: border-color var(--delay) var(--trnz),
+    box-shadow 700ms var(--trnz);
 }
 
 .order-btn:hover,
 .order-btn:focus {
   border: 1px solid var(--yellow, #ecd979);
+  box-shadow: rgba(236, 217, 121, 0.25) 0px 12px 12px -5px,
+    rgba(0, 0, 0, 0.3) 0px 7px 15px -8px,
+    rgba(1236, 217, 121, 0.35) 0px -2px 6px 0px inset;
 }
 .btn-order-icon {
   fill: var(--yellow, #ecd979);
@@ -320,6 +320,7 @@
   padding-left: 66px;
   padding-bottom: 76px;
 }
+
 
 @media screen and (min-width: 1280px) {
   .tablet-choose {

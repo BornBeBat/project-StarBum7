@@ -38,6 +38,7 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
+    padding-top: 28px;
     background-image: url('../images/footer/footer-elements-desctop.png');
     background-size: 594px 528px;
     background-position: top calc(-61px) right calc(50% - 602px);
@@ -60,9 +61,15 @@
   gap: 25px 40px;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 374.98px) {
+  .footer-list {
+    column-gap: 25px;
+  }
+}
 @media screen and (max-width: 767.98px) {
   .footer-list {
-    width: 280px;
+    align-items: start;
+    align-content: start;
     height: 61px;
   }
 }
@@ -74,7 +81,7 @@
 }
 @media screen and (min-width: 1280px) {
   .footer-list {
-    margin-bottom: 117px;
+    margin-bottom: 105px;
   }
 }
 .footer-item {
@@ -84,11 +91,32 @@
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   text-transform: uppercase;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to top,
+    rgba(236, 217, 121, 0.06),
+    rgba(236, 217, 121, 0.01)
+  );
+  background-size: 0%;
+  transition: color var(--delay) var(--trnz), box-shadow 700ms ease-in-out,
+    background-size 400ms ease-in-out;
 }
+@media not (hover: hover) {
+  .footer-item:active {
+    color: var(--accent-color);
+  }
+}
+
 @media screen and (min-width: 1280px) {
+  .footer-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
   .footer-item:hover,
   .footer-item:hover {
     color: var(--accent-color);
+    box-shadow: rgba(236, 217, 121, 0.08) 0px 4px 12px;
+    background-size: 100%;
   }
 }
 .footer-text {

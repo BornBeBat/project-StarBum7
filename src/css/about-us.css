@@ -9,7 +9,7 @@
 }
 .about-us-div {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
@@ -36,8 +36,7 @@
 .about-us-p:not(:last-child) {
   margin-bottom: 20px;
 }
-/* .about-us-div-text {
-} */
+
 @media screen and (min-width: 768px) {
   .about-us-div-text {
     gap: 40px;
@@ -54,21 +53,8 @@
 }
 .about-us-img {
   border-radius: 4px;
-  width: 335px;
-  height: 499px;
 }
-@media screen and (min-width: 768px) {
-  .about-us-img {
-    width: 704px;
-    height: 545px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .about-us-img {
-    width: 594px;
-    height: 545px;
-  }
-}
+
 .about-us-section {
   padding-bottom: 62px;
 }

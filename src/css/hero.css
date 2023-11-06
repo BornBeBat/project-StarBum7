@@ -30,9 +30,9 @@
     justify-content: start;
   }
 }
-.thumb-hero-tittle {
+/* .thumb-hero-tittle {
   animation: slide-bottom 1s cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 @media screen and (min-width: 1280px) {
   .thumb-hero-tittle {
     margin-left: 40px;
@@ -40,18 +40,14 @@
     flex-direction: column;
   }
 }
-@keyframes slide-bottom {
+/* @keyframes slide-bottom {
   0% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    scale: 1.5;
+    transform: translateY(-100%) scale(1.5);
   }
   100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    scale: 1;
+    transform: translateY(0) scale(1);
   }
-}
+} */
 .hero-tittle {
   color: var(--color);
   font-size: 44px;
@@ -123,10 +119,15 @@
   line-height: normal;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  transition: border-color var(--delay) var(--trnz);
+  transition: border-color var(--delay) var(--trnz),
+    box-shadow 700ms var(--trnz);
 }
-.button-hero:hover {
+.button-hero:hover,
+.button-hero:focus {
   border-color: var(--accent-color);
+  box-shadow: rgba(236, 217, 121, 0.25) 0px 12px 12px -5px,
+    rgba(0, 0, 0, 0.3) 0px 7px 15px -8px,
+    rgba(1236, 217, 121, 0.35) 0px -2px 6px 0px inset;
 }
 @media screen and (min-width: 768px) {
   .button-hero {
@@ -150,21 +151,7 @@
 .svg-button-hero {
   fill: var(--accent-color);
 }
-.image-hero-first {
-  width: 335px;
-}
-@media screen and (min-width: 768px) {
-  .image-hero-first {
-    width: 413px;
-    height: 575px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .image-hero-first {
-    width: 395px;
-    height: 545px;
-  }
-}
+
 .thumb-hero {
   display: none;
 }
@@ -172,27 +159,18 @@
   .thumb-hero {
     display: block;
     position: absolute;
-    bottom: -80px;
+    bottom: -100px;
     right: 32px;
-    width: 157px;
-    height: 191px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 0%;
-    border-bottom-left-radius: 0%;
+    width: 139px;
+    height: 197px;
+    border-radius: 50% / 50%;
     overflow: hidden;
   }
 }
 @media screen and (min-width: 1280px) {
   .thumb-hero {
-    width: 142px;
-    height: 156px;
-    bottom: -55px;
     right: 100px;
   }
-}
-.img-hero-second {
-  width: 100%;
 }
 
 .thumb-hero-second {
@@ -225,6 +203,16 @@
 }
 .svg-hero {
   fill: var(--accent-color);
+  animation: rotate-in-center 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    alternate both;
+}
+@keyframes rotate-in-center {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 .hero-paragraph {
   color: var(--color-op40);
