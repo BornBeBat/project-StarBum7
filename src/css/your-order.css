@@ -1,16 +1,34 @@
+.order-section {
+  overflow: hidden;
+  padding-bottom: 40.5px;
+}
+
+@media screen and (min-width: 1280px) {
+  .order-section {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .order-section {
+    padding-bottom: 75px;
+  }
+}
+
 .order-section::before {
   content: '';
   display: block;
   width: 100%;
   height: 550px;
   background-image: url(../images/img-your-order/mobile-background.png),
-    linear-gradient(to bottom right,
-        #D2D4D1,
-        #D9DBD8,
-        #E1E3E0,
-        #E1E3E0,
-        #E7EBEA,
-        #EAEEED);
+    linear-gradient(
+      to bottom right,
+      #d2d4d1,
+      #d9dbd8,
+      #e1e3e0,
+      #e1e3e0,
+      #e7ebea,
+      #eaeeed
+    );
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -19,13 +37,15 @@
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
       background-image: url(../images/img-your-order/mobile-background@2x.png),
-        linear-gradient(to bottom right,
-            #D2D4D1,
-            #D9DBD8,
-            #E1E3E0,
-            #E1E3E0,
-            #E7EBEA,
-            #EAEEED);
+        linear-gradient(
+          to bottom right,
+          #d2d4d1,
+          #d9dbd8,
+          #e1e3e0,
+          #e1e3e0,
+          #e7ebea,
+          #eaeeed
+        );
       background-size: cover;
     }
   }
@@ -35,42 +55,46 @@
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
       background-image: url(../images/img-your-order/mobile-background@2x.png),
-        linear-gradient(to bottom right,
-          #D2D4D1,
-          #D9DBD8,
-          #E1E3E0,
-          #E1E3E0,
-          #E7EBEA,
-          #EAEEED);
+        linear-gradient(
+          to bottom right,
+          #d2d4d1,
+          #d9dbd8,
+          #e1e3e0,
+          #e1e3e0,
+          #e7ebea,
+          #eaeeed
+        );
       background-size: contain;
     }
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .order-section::before {
     height: 776px;
     background-image: url(../images/img-your-order/tablet-backgroud.png),
-      linear-gradient(to bottom right,
-        #D2D4D1,
-        #D9DBD8,
-        #E1E3E0,
-        #E1E3E0,
-        #E7EBEA,
-        #EAEEED);
+      linear-gradient(
+        to bottom right,
+        #d2d4d1,
+        #d9dbd8,
+        #e1e3e0,
+        #e1e3e0,
+        #e7ebea,
+        #eaeeed
+      );
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
       background-image: url(../images/img-your-order/tablet-backgroud@2x.png),
         linear-gradient(
           to bottom right,
-            #D2D4D1,
-            #D9DBD8,
-            #E1E3E0,
-            #E1E3E0,
-            #E7EBEA,
-            #EAEEED);
+          #d2d4d1,
+          #d9dbd8,
+          #e1e3e0,
+          #e1e3e0,
+          #e7ebea,
+          #eaeeed
+        );
       background-size: contain;
     }
   }
@@ -79,24 +103,28 @@
 @media screen and (min-width: 1280px) {
   .order-section::before {
     background-image: url(../images/img-your-order/large-background.png),
-      linear-gradient(to bottom right,
-          #C5CAC6,
-          #D2D7D3,
-          #DFE4E0,
-          #E4EAE8,
-          #E6ECEA,
-          #E7EDED);
+      linear-gradient(
+        to bottom right,
+        #c5cac6,
+        #d2d7d3,
+        #dfe4e0,
+        #e4eae8,
+        #e6ecea,
+        #e7eded
+      );
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
       background-image: url(../images/img-your-order/large-background@2x.png),
-        linear-gradient(to bottom right,
-            #C5CAC6,
-            #D2D7D3,
-            #DFE4E0,
-            #E4EAE8,
-            #E6ECEA,
-            #E7EDED);
+        linear-gradient(
+          to bottom right,
+          #c5cac6,
+          #d2d7d3,
+          #dfe4e0,
+          #e4eae8,
+          #e6ecea,
+          #e7eded
+        );
       background-size: contain;
     }
   }
@@ -105,24 +133,27 @@
 @media screen and (min-width: 1440px) {
   .order-section::before {
     background-image: url(../images/img-your-order/desktop-background.png),
-      linear-gradient(to bottom right,
-          #D2D4D1,
-          #D9DBD8,
-          #E1E3E0,
-          #E1E3E0,
-          #E7EBEA,
-          #EAEEED);
+      linear-gradient(
+        to bottom right,
+        #d2d4d1,
+        #d9dbd8,
+        #e1e3e0,
+        #e1e3e0,
+        #e7ebea,
+        #eaeeed
+      );
   }
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .order-section::before {
       background-image: url(../images/img-your-order/desktop-background@2x.png),
-        linear-gradient(to bottom right,
-            #D2D4D1,
-            #D9DBD8,
-            #E1E3E0,
-            #E1E3E0,
-            #E7EBEA,
-            #EAEEED
+        linear-gradient(
+          to bottom right,
+          #d2d4d1,
+          #d9dbd8,
+          #e1e3e0,
+          #e1e3e0,
+          #e7ebea,
+          #eaeeed
         );
       background-size: contain;
     }
@@ -238,10 +269,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
   margin-bottom: 20px;
 }
- 
+
 .order-imput-form:focus {
   outline: 1px solid rgba(252, 249, 249, 0.6);
 }
@@ -255,6 +286,12 @@
 @media screen and (min-width: 768px) {
   .order-imput-form {
     width: 508px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-imput-form {
+    font-size: 16px;
   }
 }
 
@@ -295,6 +332,8 @@
 @media screen and (min-width: 768px) {
   .order-btn {
     margin: 0px;
+    font-size: 16px;
+    padding: 14px 39px;
   }
 }
 .img-your-order {
@@ -316,20 +355,17 @@
 }
 
 .tablet-choose {
-  width: 100%;
   padding-left: 66px;
   padding-bottom: 76px;
 }
 
-
 @media screen and (min-width: 1280px) {
   .tablet-choose {
-    width: 100%;
     padding-left: 0px;
     padding-bottom: 0px;
   }
 }
 
-.hide{
+.hide {
   display: none;
 }
