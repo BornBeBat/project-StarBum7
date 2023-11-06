@@ -322,6 +322,14 @@
   padding-bottom: 76px;
 }
 
+@media screen and (min-width: 1280px) {
+  .img-your-order {
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+}
+
 .hide{
   display: none;
 }
