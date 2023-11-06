@@ -16,18 +16,20 @@
     </div>
     <picture>
       <source
-        media="(min-width: 1440px)"
-        srcset="
-          ./images/hero/desctophero@1x.webp 1x,
-          ./images/hero/desctophero@2x.webp 2x
-        "
-      />
-      <source
         media="(min-width: 1280px)"
         srcset="
           ./images/hero/desctophero@1x.webp 1x,
           ./images/hero/desctophero@2x.webp 2x
         "
+        type="image/webp"
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./images/hero/desctophero@1x.jpg 1x,
+          ./images/hero/desctophero@2x.jpg 2x
+        "
+        type="image/jpg"
       />
       <source
         media="(min-width: 768px)"
@@ -35,14 +37,33 @@
           ./images/hero/tablethero@1x.webp 1x,
           ./images/hero/tablethero@2x.webp 2x
         "
+        type="image/webp"
       />
       <source
-        media="(max-width: 767px)"
+        media="(min-width: 768px)"
+        srcset="
+          ./images/hero/tablethero@1x.jpg 1x,
+          ./images/hero/tablethero@2x.jpg 2x
+        "
+        type="image/jpg"
+      />
+      <source
+        media="(min-width: 320px)"
         srcset="
           ./images/hero/mobilehero@1x.webp 1x,
           ./images/hero/mobilehero@2x.webp 2x
         "
+        type="image/webp"
       />
+      <source
+        media="(min-width: 320px)"
+        srcset="
+          ./images/hero/mobilehero@1x.jpg 1x,
+          ./images/hero/mobilehero@2x.jpg 2x
+        "
+        type="image/jpg"
+      />
+
       <img
         src="./images/hero/mobilehero@1x.webp"
         alt="A girl in an embroidered dress"
@@ -56,9 +77,18 @@
         <source
           media="(min-width: 1440px)"
           srcset="
-            ./images/hero/desctopheroukraine@1x.webp 1x,
-            ./images/hero/desctopheroukraine@2x.webp 2x
+            ./images/hero/largedesctopheroukraine@1x.webp 1x,
+            ./images/hero/largedesctopheroukraine@2x.webp 2x
           "
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ./images/hero/largedesctopheroukraine@1x.jpg 1x,
+            ./images/hero/largedesctopheroukraine@2x.jpg 2x
+          "
+          type="image/jpg"
         />
         <source
           media="(min-width: 1280px)"
@@ -66,6 +96,15 @@
             ./images/hero/desctopheroukraine@1x.webp 1x,
             ./images/hero/desctopheroukraine@2x.webp 2x
           "
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./images/hero/desctopheroukraine@1x.jpg 1x,
+            ./images/hero/desctopheroukraine@2x.jpg 2x
+          "
+          type="image/jpg"
         />
         <source
           media="(min-width: 768px)"
@@ -73,6 +112,15 @@
             ./images/hero/tabletheroukraine@1x.webp 1x,
             ./images/hero/tabletheroukraine@2x.webp 2x
           "
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/hero/tabletheroukraine@1x.jpg 1x,
+            ./images/hero/tabletheroukraine@2x.jpg 2x
+          "
+          type="image/jpg"
         />
         <img
           src="./images/hero/tabletheroukraine@1x.webp"
