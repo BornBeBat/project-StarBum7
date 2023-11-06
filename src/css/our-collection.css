@@ -68,7 +68,6 @@
 /* Large Desk Top */
 @media only screen and (min-width: 1440px) {
   .collection-container {
-    padding: 70px 0 150px;
     background-position: top 301px left calc(50% - 720px);
   }
 }
