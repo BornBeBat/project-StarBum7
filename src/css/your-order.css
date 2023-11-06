@@ -176,7 +176,6 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 50px;
-    padding-left: 64px;
   }
 }
 
@@ -249,7 +248,7 @@
 
 .order-texteria {
   height: 196px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   resize: none;
 }
 
@@ -322,6 +321,15 @@
   padding-bottom: 76px;
 }
 
-.hide {
+
+@media screen and (min-width: 1280px) {
+  .tablet-choose {
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.hide{
   display: none;
 }
