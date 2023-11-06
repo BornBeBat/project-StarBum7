@@ -1,6 +1,19 @@
 .order-section {
   overflow: hidden;
+  padding-bottom: 40.5px;
 }
+
+@media screen and (min-width: 1280px) {
+  .order-section {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+.order-section {
+  padding-bottom: 75px;
+}
+}
+
 
 .order-section::before {
   content: '';
@@ -242,7 +255,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
   margin-bottom: 20px;
 }
  
@@ -259,6 +272,12 @@
 @media screen and (min-width: 768px) {
   .order-imput-form {
     width: 508px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-imput-form {
+    font-size: 16px;
   }
 }
 
@@ -295,6 +314,8 @@
 @media screen and (min-width: 768px) {
   .order-btn {
     margin: 0px;
+    font-size: 16px;
+    padding: 14px 39px;
   }
 }
 .img-your-order {
@@ -316,14 +337,12 @@
 }
 
 .tablet-choose {
-  width: 100%;
   padding-left: 66px;
   padding-bottom: 76px;
 }
 
 @media screen and (min-width: 1280px) {
   .tablet-choose {
-    width: 100%;
     padding-left: 0px;
     padding-bottom: 0px;
   }
