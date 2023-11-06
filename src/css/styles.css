@@ -4,7 +4,8 @@
   | default @import url()
   |============================
 */
-
+/* Modern Normalize */
+@import url('./modern-normalize.css');
 /* Variavles (root) */
 @import url('./variables.css');
 
