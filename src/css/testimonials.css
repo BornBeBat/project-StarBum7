@@ -1,6 +1,6 @@
 .testimonials-section {
   padding-top: 40.5px;
-  padding-bottom: 80px;
+  padding-bottom: 82px;
 }
 
 .testimonials-title {
@@ -47,6 +47,12 @@
   line-height: 1.5;
 }
 
+@media screen and (min-width: 768px) {
+  .reviewers-name {
+    margin-bottom: 8px;
+  }
+}
+
 .reviewers-desc {
   color: var(--color-op40);
   text-align: center;
@@ -87,16 +93,23 @@
     padding: 54px 18px 18px 18px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .testimonials-link {
+    padding: 54px 22px 18px 22px;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .testimonials-section {
-    padding-top: 50px;
+    padding-top: 103px;
+    padding-bottom: 110px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .testimonials-section {
-    padding-top: 75px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
 
   .testimonials-list {

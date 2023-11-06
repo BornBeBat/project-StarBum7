@@ -51,7 +51,7 @@
 }
 @media screen and (min-width: 1440px) {
   .footer {
-    background-position: top calc(-61px) right calc(50% - 602px);
+    background-position: top calc(-61px) right calc(50% - 522px);
   }
 }
 .footer-list {

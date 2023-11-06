@@ -1,9 +1,9 @@
 .hero-section {
-  padding: 60px 0 80px 0;
+  padding: 65px 0 80px 0;
 }
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding: 106px 0 100px 0;
+    padding: 111px 0 100px 0;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -206,4 +206,5 @@
   color: var(--color-op40);
   font-size: 16px;
   letter-spacing: -0.04em;
+  line-height: normal;
 }

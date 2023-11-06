@@ -7,31 +7,39 @@
   letter-spacing: -0.96px;
   margin-bottom: 40px;
 }
+@media screen and (min-width: 768px) {
+  .about-us-h2 {
+    font-size: 44px;
+
+    line-height: 1.45; /* 145.455% */
+    letter-spacing: -0.03em;
+  }
+}
 .about-us-div {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 50px;
+  gap: 45px;
   flex-wrap: wrap;
   flex-direction: column;
 }
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
   .about-us-div {
-    gap: 40px;
+    gap: 43px;
   }
 }
 @media screen and (min-width: 1280px) {
   .about-us-div {
     flex-direction: row;
+    gap: 50px;
   }
 }
 .about-us-p {
   color: var(--color-op40);
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.04em;
 }
 .about-us-p:not(:last-child) {
   margin-bottom: 20px;
@@ -43,7 +51,7 @@
   }
   .about-us-p {
     font-size: 16px;
-    letter-spacing: -0.64px;
+    letter-spacing: -0.04em;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -51,6 +59,12 @@
     width: 436px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .about-us-div-text {
+    width: 481px;
+  }
+}
+
 .about-us-img {
   border-radius: 4px;
 }
